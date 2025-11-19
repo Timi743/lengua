@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shop Max</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: #e8ecf1;
+    }
+    header {
+      background: #1a73e8;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    .hero {
+      background: white;
+      padding: 30px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      margin: 20px;
+      border-radius: 15px;
+    }
+    .hero h2 {
+      margin: 0;
+      font-size: 24px;
+    }
+    .productos {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+    .item {
+      background: white;
+      width: 260px;
+      border-radius: 15px;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    }
+    .item img {
+      width: 100%;
+      border-radius: 10px;
+      height: 180px;
+      object-fit: cover;
+    }
+    .precio {
+      font-size: 20px;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+    button {
+      background: #1a73e8;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover {
+      background: #0f57b5;
+    }
+  </style>
+</head>
+<body>
+  <header>Shop Max 🛒</header>
+
+  <div class="hero">
+    <h2>Bienvenido a la mejor tienda online</h2>
+    <p>Ofertas exclusivas todos los días</p>
+  </div>
+
+  <div class="productos">
+    <div class="item">
+      <img src="https://via.placeholder.com/260" alt="Auriculares"> 
+      <h3>Auriculares Pro</h3>
+      <p class="precio">$25.000</p>
+      <button>Comprar</button>
+    </div>
+
+    <div class="item">
+      <img src="https://via.placeholder.com/260" alt="Smartwatch"> 
+      <h3>Smartwatch Fit</h3>
+      <p class="precio">$30.000</p>
+      <button>Comprar</button>
+    </div>
+
+    <div class="item">
+      <img src="https://via.placeholder.com/260" alt="Teclado Gamer"> 
+      <h3>Teclado Gamer RGB</h3>
+      <p class="precio">$18.000</p>
+      <button>Comprar</button>
+    </div>
+  </div>
+</body>
+</html>
